@@ -1,0 +1,1 @@
+# Typosquatting-Extension-to-ZAP
