@@ -1,13 +1,17 @@
-# Typosquatting-Extension-to-ZAP
+# Typosquatting Detection Add-on for OWASP ZAP
 
-A browser extension that helps users detect and avoid potentially malicious typosquatting domains—websites designed to resemble legitimate services through small spelling or character changes.
+An OWASP ZAP add-on that identifies potential typosquatting domains during security testing. It helps analysts spot domains that closely resemble trusted or targeted domains and may indicate phishing, impersonation, or other deceptive activity.
 
-##Features
+## Overview
 
-Detects suspicious domain names
+Typosquatting domains exploit small visual or spelling differences; such as missing characters, swapped letters, or look-alike characters; to appear legitimate. This add-on integrates detection into OWASP ZAP so findings can be reviewed within a standard web-security testing workflow.
 
-Highlights possible typosquatting attempts
+## Features
 
-Helps users recognize deceptive URLs before interacting with them
+Analyses requested URLs and hostnames
 
-Provides clear warnings in the browser
+Detects domains that may resemble known or targeted domains
+
+Reports potential typosquatting findings in OWASP ZAP
+
+Supports security testing and phishing-awareness investigations
